@@ -84,7 +84,7 @@ const cashon = () => {
                     </div>
 
 
-                    <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Submit' : 'Wait...'}</button>
+                    <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Place Order' : 'Wait...'}</button>
 
                 </div>
             ) : (
