@@ -780,8 +780,14 @@ margin-top: 160px;
     flex-wrap: wrap;
     }
   .product-detail-container .product-detail-image{
-    width: 350px;
-    height: 350px;
+    width: 380px;
+    height: 390px;
+    @media screen and (max-width:410px) {
+      width: 350px;
+      height: 370px;
+      margin-left: -17px;
+    }
+    
   }
   
   .cart-container{
@@ -801,12 +807,17 @@ margin-top: 160px;
   .product .cart-product-image{
     width: 25%;
     height: 25%;
+    
   }
   .buttons .add-to-cart{
     width: 150px;
   }
   .buttons .buy-now{
     width: 150px;
+
+    @media screen and (max-width:410px) {
+        margin-right: 25px;  
+    }
   }
   .product-detail-container{
     margin: 20px;
