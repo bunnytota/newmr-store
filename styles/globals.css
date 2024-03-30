@@ -516,7 +516,7 @@ padding: 30px 65px;
   border-radius: 15px;
    background-color: #ebebeb;
    margin-left:-15px;
-   
+   border: 2px solid black;
   width: 400px;
   height: 470px;
   cursor: pointer;
@@ -785,7 +785,7 @@ margin-top: 160px;
     @media screen and (max-width:410px) {
       width: 350px;
       height: 370px;
-      margin-left: -9px;
+      margin-left: -7px;
     }
     
   }
@@ -793,6 +793,7 @@ margin-top: 160px;
   .cart-container{
     width: 415px;
   padding: 4px;
+    height: 103vh;
   }
   .cart-heading{
     margin-top: 35px;
@@ -881,6 +882,7 @@ margin-top: 160px;
 .btn-container{
   width: 300px;
   margin: auto;
+  margin-bottom: 15px;
 }
 }
 
@@ -979,7 +981,7 @@ margin-top: 160px;
       border: none;
       border-radius: 7px;
       background-color: #dcdcdc;
-
+      border:  1px solid black;
       font-family: var(--font-base);
       color: black;
       outline: none;
