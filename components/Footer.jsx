@@ -16,13 +16,13 @@ const Footer = () => {
       <BsTwitter />
   </a></div>*/}
     
-    <div style={{marginLeft:'14px'}} className='icons'><a href="https://web.facebook.com/profile.php?id=61557564147342" target="_blank" rel="noopener noreferrer">
+    <div style={{marginLeft:'14px', color: 'skyblue'}} className='icons'><a href="https://web.facebook.com/profile.php?id=61557564147342" target="_blank" rel="noopener noreferrer">
     <FaFacebookF />
   </a></div>
-    <div style={{marginLeft:'14px'}} className='icons'><a href="https://www.instagram.com/ha_store_77/" target="_blank" rel="noopener noreferrer">
+    <div style={{marginLeft:'14px',color: 'red'}} className='icons'><a href="https://www.instagram.com/ha_store_77/" target="_blank" rel="noopener noreferrer">
       <BsInstagram /></a>
           </div>
-      <div style={{marginLeft:'14px'}} className='icons'><a href="https://wa.me/923340596908" target="_blank" rel="noopener noreferrer">
+      <div style={{marginLeft:'14px', color: 'green'}} className='icons'><a href="https://wa.me/923340596908" target="_blank" rel="noopener noreferrer">
       <BsWhatsapp /></a></div>
     
     </div>
