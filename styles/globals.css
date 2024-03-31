@@ -130,11 +130,18 @@ width: 100%;
 
 .product-name{
   font-weight: 500;
+  @media screen and (max-width:500px) {
+     font-size: x-small;
+  }
 }
 .product-discount{
   position: absolute;
-   bottom: 1px;
-   right: 3px;
+   bottom: 4px;
+   right: 7px;
+
+   @media screen and (max-width:500px) {
+    font-size: x-small;
+ }
   
 }
 .product-price{
@@ -540,7 +547,8 @@ padding: 30px 65px;
 }
 
 .selected-image{
-  background-color:#f02d34;
+  /*background-color:#f02d34*/
+  border: 2px solid #f02d34; 
 }
 .reviews{
   color: #f02d34;
@@ -719,8 +727,8 @@ margin-top: 160px;
   .hero-banner-image{
     width: 60%;
     height: 52%;
-    top: -2%;
-    right: -3%;
+    top: 5%;
+    right: 2%;
   }
    
   .footer-banner-container{
@@ -730,7 +738,7 @@ margin-top: 160px;
   
   .footer-banner-image{
     width: 57%;
-    left: 47%;
+    left: 37%;
     top: 4%;
     height: 46%
   }
