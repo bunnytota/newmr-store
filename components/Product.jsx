@@ -1,28 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
-import { useEffect } from 'react';
+
 import { urlFor } from '../lib/client';
 
 const Product = ({ product: { image, name, slug, price ,discount} }) => {
-  const router = useRouter();
-
-  useEffect(() => {
-    const handleBackButton = () => {
-      const currentPath = router.asPath;
-      if (currentPath.startsWith(`/product${slug.current}`)) {
-        router.push('/');
-      }
-    };
-
-    window.addEventListener('popstate', handleBackButton);
-
-    return () => {
-      window.removeEventListener('popstate', handleBackButton);
-    };
-  }, [router]);
-
-  
   return (
     <div>
       <Link href={`/product/${slug.current}`}>
