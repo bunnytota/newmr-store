@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <p className="logo">
-      <Link href="/"><b>visit store</b></Link>
+     
         <Link href="/"><b>MR-Store</b></Link>
       </p>
 
