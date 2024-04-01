@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { AiOutlineMinus, AiOutlinePlus, AiFillStar, AiOutlineStar } from 'react-icons/ai';
 
 import { client, urlFor } from '../../lib/client';
-import { Product } from '../../components';
+import { Product,FloaterHome } from '../../components';
 import { useStateContext } from '../../context/StateContext';
 
 const ProductDetails = ({ product, products }) => {
@@ -69,8 +69,9 @@ const ProductDetails = ({ product, products }) => {
           </div>
         </div>
       </div>
-
+      <div className='floaterhome'><FloaterHome/></div>
       <div className="maylike-products-wrapper">
+       
           <h2>Choose Any Product</h2>
           <div className="marquee">
             <div className="maylike-products-container track">
