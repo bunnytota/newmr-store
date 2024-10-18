@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { client } from '../lib/client';
-import { Product, FooterBanner, HeroBanner } from '../components';
+import { Product, FooterBanner, HeroBanner,Box } from '../components';
 
 const Home = ({ products, bannerData }) => (
   <div>
@@ -10,7 +10,7 @@ const Home = ({ products, bannerData }) => (
       <h2>NEW Stock</h2>
       <p>Find every unique product and buy</p>
     </div>
-
+     {/* <Box/> */}
     <div className="products-container">
       {products?.map((product) => <Product key={product._id} product={product} />)}
     </div>
